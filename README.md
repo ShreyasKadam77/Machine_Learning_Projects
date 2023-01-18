@@ -54,9 +54,9 @@ Here is list for every project in this repository and link to introduction of pr
 <h4 id='Titanic'> Titanic Survial Predictor</h4>
 
 * This project is to predict the passangers in titanic will survive or not on the basis of given data.
-* In this notebook we've used Random Forest,KNN and GradientBoost classifier and got better accuracy on these top 2 models i.e.GradientBoostClassifier and RandomForestlassifier.
-* After Hypertunning got an accuracy 78.73% for Gradient Boosting.
->* Hypertunnig parameters for GBC learning_rate= 0.01, max_depth= 4, max_features= 16, min_samples_leaf= 1, min_samples_split=20, n_estimators= 500.
+* In this notebook we've used Logistic Regression, Random Forest, KNN and GradientBoost classifier and got better accuracy on these top 2 models i.e.GradientBoostClassifier and Logistic Regression.
+* After Hypertunning got an accuracy 84.21 % for Logistic Regression.
+
 * Get source code [Visit][Titanic]
 
 
