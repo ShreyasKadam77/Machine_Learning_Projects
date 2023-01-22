@@ -53,13 +53,19 @@ Here is list for every project in this repository and link to introduction of pr
 
 <h4 id='Titanic'> Titanic Survial Predictor</h4>
 
-* This project is to predict the passangers in titanic will survive or not on the basis of given data.
+* This project is to predict the passengers in titanic will survive or not on the basis of given data.
 * In this notebook we've used Logistic Regression, Random Forest, KNN and GradientBoost classifier and got better accuracy on these top 2 models i.e.GradientBoostClassifier and Logistic Regression.
 * After Hypertunning got an accuracy 84.21 % for Logistic Regression.
 
 * Get source code [Visit][Titanic]
 
+<h4 id='Diabetes'> Diabetes Predictor</h4>
 
+* The objective of this project is to predict whether a patient has diabetes or not on the basis of certain diagnostic measurements given in dataset.
+* In this notebook we've used Random Forest, KNN and Decision Tree classifier and got better accuracy on the Random Forest Classifier.
+* After Hypertunning got an accuracy 81.30 % for Random Forest Classifier.
+
+* Get source code [Visit][Diabetes]
 -------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 
@@ -70,6 +76,9 @@ Here is list for every project in this repository and link to introduction of pr
 
 <!-- Classification Links-->
 [Titanic]: https://github.com/ShreyasKadam77/Machine_Learning_Projects/tree/master/Classification_problems/Titanic_survival_predictions
+[Diabetes]:
+https://github.com/ShreyasKadam77/Machine_Learning_Projects/tree/master/Classification_problems/Diabetes_predictor
+
 
 
 
