@@ -22,6 +22,8 @@ Here is list for every project in this repository and link to introduction of pr
 --------------------------------------------------
 ### Classification:-
 * <a href="#Titanic">Titanic Survival Prediction</a>
+* <a href="#Diabetes">Diabetes Prediction</a>
+
 
 
 ## Tools And Workflow:-
