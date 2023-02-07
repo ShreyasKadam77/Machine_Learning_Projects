@@ -48,8 +48,6 @@ Here is list for every project in this repository and link to introduction of pr
 >* If more than one depending on initial accuracy take for Hyperparameter Tuning - [RandomSearchCV](https://scikit-learn.org/stable/modules/generated/sklearn.model_selection.RandomizedSearchCV.html#sklearn.model_selection.RandomizedSearchCV), [GridSearchCV](https://scikit-learn.org/stable/modules/generated/sklearn.model_selection.GridSearchCV.html)
 * Predict on test set
 
-<img src="https://user-images.githubusercontent.com/91015517/217172991-ba7df45a-7444-4dea-860c-1c4d397cd9db.png" height=500, width=700/>
-
 
 ## Project Introduction's:-(for detail discription visit respective project)
 
