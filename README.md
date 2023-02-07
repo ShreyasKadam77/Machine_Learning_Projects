@@ -48,6 +48,11 @@ Here is list for every project in this repository and link to introduction of pr
 >* If more than one depending on initial accuracy take for Hyperparameter Tuning - [RandomSearchCV](https://scikit-learn.org/stable/modules/generated/sklearn.model_selection.RandomizedSearchCV.html#sklearn.model_selection.RandomizedSearchCV), [GridSearchCV](https://scikit-learn.org/stable/modules/generated/sklearn.model_selection.GridSearchCV.html)
 * Predict on test set
 
+<<<<<<< HEAD
+=======
+
+<img src="https://user-images.githubusercontent.com/91015517/217172991-ba7df45a-7444-4dea-860c-1c4d397cd9db.png" height=500, width=700/>
+>>>>>>> f8b53689c3dc9218b0dfedda6f24ccdf17934f7a
 
 ## Project Introduction's:-(for detail discription visit respective project)
 
@@ -76,7 +81,7 @@ Here is list for every project in this repository and link to introduction of pr
 * In this project We have done exoloratory data analysis and feature engineering on dataset.
 * We have tried different models like Random Forest, KNN, Decision Tree classifier, Logistic Regression and Ada Boosting Classifier for training. 
 * After Hypertunning using GridSearchCV, we got an accuracy 82.17 % for Ada Boosting Classifier.
-* We have done further evalutaion of model using performance metrics like confusion matrix, recall score, precision score, F1 score, ROC curve.
+* We have done further evalutaion of model using performance metrics like confusion matrix, recall score, precision score, F1 score, ROC curves.
 
 * Get source code [Visit][Loan_Approval]
 -------------------------------------------------------------------------------------------------------------------------------------------------------------------------
