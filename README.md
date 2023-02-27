@@ -25,6 +25,10 @@ Here is list for every project in this repository and link to introduction of pr
 * <a href="#Diabetes">Diabetes Prediction</a>
 * <a href="#LoanApproval">Loan Approval Prediction</a>
 
+### Regression:-
+* <a href="#HousePrice"> House Price Predictions </a>
+* <a href="#SalaryPredictions"> Salary Predictions </a>
+
 
 
 
@@ -81,7 +85,22 @@ Here is list for every project in this repository and link to introduction of pr
 * We have done further evalutaion of model using performance metrics like confusion matrix, recall score, precision score, F1 score, ROC curve.
 
 * Get source code [Visit][Loan Approval]
--------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+-------------------------------------------------------------------------------------------------------------------------------------------
+
+### Regression:-
+
+<h4 id='HousePrice'> House Price Predictions</h4>
+
+* The objective of this project is to predict price of the house.
+
+<h4 id='SalaryPredictions'> Salary Predictions</h4>
+
+* The objective of this project is to predict salary of employee based on various personal features like experience, skills and company features.
+* In this project, I have done data preprocessing and feature engineering using Pandas and NumPy.
+* After trying different models and hyperparameter tunning, I got better accuracy for Random Forest Regressor.
+* I created API for this project by using Flask web framework.
+
+------------------------------
 
 
 
@@ -96,6 +115,7 @@ https://github.com/ShreyasKadam77/Machine_Learning_Projects/tree/master/Classifi
 [Loan Approval]:
 https://github.com/ShreyasKadam77/Machine_Learning_Projects/tree/master/Classification_problems/Loan_Approval_Predictions
 
-
-
+<!-- Regression Links  -->
+[HousePrice]: https://github.com/ShreyasKadam77/Machine_Learning_Projects/tree/master/Regression_problems/House_Price_Predictions
+[SalaryPredictions]: https://github.com/ShreyasKadam77/Machine_Learning_Projects/tree/master/Regression_problems/Salary_Predictions
 
