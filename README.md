@@ -92,6 +92,8 @@ Here is list for every project in this repository and link to introduction of pr
 <h4 id='HousePrice'> House Price Predictions</h4>
 
 * The objective of this project is to predict price of the house.
+* Get source code [Visit][HousePrice]
+
 
 <h4 id='SalaryPredictions'> Salary Predictions</h4>
 
@@ -99,6 +101,8 @@ Here is list for every project in this repository and link to introduction of pr
 * In this project, I have done data preprocessing and feature engineering using Pandas and NumPy.
 * After trying different models and hyperparameter tunning, I got better accuracy for Random Forest Regressor.
 * I created API for this project by using Flask web framework.
+* Get source code [Visit][SalaryPredictions]
+
 
 ------------------------------
 
