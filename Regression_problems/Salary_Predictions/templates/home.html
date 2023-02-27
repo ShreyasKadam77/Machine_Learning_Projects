@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Kshreyas321">
+    <title>Home</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+    <style> body {background-color: powderblue;} h1 {color: black;} p {color: blue;} </style>
+</head>
+<body>
+   <!-- heading -->
+      <nav class='navbar'>
+        <div class='navbox'>
+           <div class='navhead' style="text-align:center">
+               <h1><span>Salary Predictor</span></h1>
+            </div>
+        </div>
+      </nav>
+
+      <div class="main-container">
+           <form action="{{ url_for('predict_salary')}}" method="post">
+                <div class="input">
+                   <div class="column">
+                    <div class='input-box'>
+                        <h2 style="font-size: 36px" class="input-title">Company Rating</h2>
+                        <div class="input-button">
+                          <input style="font-size: 26px" name="Company_Rating" id="Company_Rating" required="required">
+                        </div>
+                    </div>
+                </div>
+                <div class="column">
+                     <div class='input-box'>
+                        <h2 style="font-size: 36px" class="input-title">Company Founded</h2>
+                        <div class="input-button">
+                          <input style="font-size: 26px" name="Company_Founded_Year" id="Company_Founded_Year" required="required">
+                        </div>
+                    </div>
+                </div>
+                <div class="column">
+                     <div class='input-box'>
+                        <h2 style="font-size: 36px" class="input-title"> Seniority </h2>
+                        <div class="input-button">
+                            <select style="font-size: 26px" name="Seniority" id="Seniority" required="required">
+                                <option value='other'>Other</option>
+                                <option value='jr'>Junior</option>
+                                <option value='sr'>Senior</option>
+                            </select>
+                        </div>
+                    </div>
+                </div>
+                <div class="column">
+                     <div  class='input-box-r'>
+                        <h2 style="font-size: 36px" class="input-title">Skills</h2>
+                        <div style="font-size: 26px" class="input-button">
+<!--                            <input style="font-size: 26px" name="skills" id="skills" required="required">-->
+                            <input type="checkbox" name="skills" value="python">                  Python
+                            <br>
+                            <input type="checkbox" name="skills" value="sql">            SQL
+                            <br>
+                            <input type="checkbox" name="skills" value="tableau">Tableau
+                            <br>
+                            <input type="checkbox" name="skills" value="excel">Excel
+                            <br>
+                        </div>
+                    </div>
+                </div>
+                <div class="column">
+                     <div class='input-box-r'>
+                        <h2 style="font-size: 36px" class="input-title">Job in Headquarter</h2>
+                        <div class="input-button">
+                            <select style="font-size: 26px" name="Job_in_Headquarter" id="Job_in_Headquarter" required="required">
+                                <option value='yes'>Yes</option>
+                                <option value='no'>No</option>
+                            </select>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="column">
+                    <div class='input-box-r'>
+                        <h2 style="font-size: 36px" class="input-title">Company Revenue</h2>
+                        <div class="input-button">
+                            <select style="font-size: 26px" name="Company_Revenue" id="Company_Revenue" required="required">
+                                <option value="Unknown / Non-Applicable">Unknown / Non-Applicable</option>
+                                <option value="Less than $1 million (USD)">Less than $1 million (USD)</option>
+                                <option value="$1 to $5 million (USD)">$1 to $5 million (USD)</option>
+                                <option value="$5 to $10 million (USD)">$5 to $10 million (USD)</option>
+                                <option value="$10 to $25 million (USD)">$10 to $25 million (USD)</option>
+                                <option value="$25 to $50 million (USD)">$25 to $50 million (USD)</option>
+                                <option value="$50 to $100 million (USD)">$50 to $100 million (USD)</option>
+                                <option value="$100 to $500 million (USD)">$100 to $500 million (USD)</option>
+                                <option value="$500 million to $1 billion (USD)">$500 million to $1 billion (USD)</option>
+                                <option value="$1 to $2 billion (USD)">$1 to $2 billion (USD)</option>
+                                <option value="$2 to $5 billion (USD)">$2 to $5 billion (USD)</option>
+                                <option value="$5 to $10 billion (USD)">$5 to $10 billion (USD)</option>
+
+                            </select>
+
+                        </div>
+                    </div>
+                </div>
+
+                <div class="column">
+                     <div class='input-box'>
+                        <h2 style="font-size: 36px" class="input-title">Number Of Competitors</h2>
+                        <div class="input-button">
+                          <input style="font-size: 26px" name="Number_of_Competitors" id="Number_of_Competitors" required="required">
+                        </div>
+                    </div>
+                </div>
+                <div class="column">
+                     <div class='input-box'>
+                        <h2 style="font-size: 36px" class="input-title"> Job Title </h2>
+                        <div class="input-button">
+                            <select style="font-size: 26px" name="Job_Title" id="Job_Title" required="required">
+                                <option value='data analyst'>data analyst</option>
+                                <option value='data scientist'>data scientist</option>
+                                <option value='director'>director</option>
+                                <option value='manager'>manager</option>
+                                <option value='ml engineer'>ml engineer</option>
+                            </select>
+                        </div>
+                    </div>
+                </div>
+                <div class="column">
+                     <div class='input-box'>
+                        <h2 style="font-size: 36px" class="input-title"> Type of Ownership </h2>
+                        <div class="input-button">
+                            <select style="font-size: 26px" name="Type_of_Ownership" id="Type_of_Ownership" required="required">
+                                <option value='type_of_ownership_College / University'>type_of_ownership_College / University</option>
+                                <option value='type_of_ownership_Government'>type_of_ownership_Government</option>
+                                <option value='type_of_ownership_Hospital'>type_of_ownership_Hospital</option>
+                                <option value='type_of_ownership_Nonprofit Organization'>type_of_ownership_Nonprofit Organization</option>
+                                <option value='type_of_ownership_Private'>type_of_ownership_Private</option>
+                                <option value='type_of_ownership_Subsidiary or Business Segment'>type_of_ownership_Subsidiary or Business Segment</option>
+                            </select>
+                        </div>
+                    </div>
+                </div>
+                <div class="column">
+                     <div class='input-box'>
+                        <h2 style="font-size: 36px" class="input-title"> Type Of Sector </h2>
+                        <div class="input-button">
+                            <select style="font-size: 26px" name="Type_of_Sector" id="Type_of_Sector" required="required">
+                                <option value='sector_Aerospace & Defense'>sector_Aerospace & Defense</option>
+                                <option value='sector_Biotech & Pharmaceuticals'>sector_Biotech & Pharmaceuticals</option>
+                                <option value='sector_Business Services'>sector_Business Services</option>
+                                <option value='sector_Finance'>sector_Finance</option>
+                                <option value='sector_Health Care'>sector_Health Care</option>
+                                <option value='sector_Information Technology'>sector_Information Technology</option>
+                                <option value='sector_Insurance'>sector_Insurance</option>
+                                <option value='sector_Manufacturing'>sector_Manufacturing</option>
+                            </select>
+                        </div>
+                    </div>
+                </div>
+
+      </div>
+
+                <div class="predict-btn" style="text-align:center">
+    <!--               input button-->
+                    <input style="font-size: 40px" type="submit" value="Predict" class="input-btn">
+                </div>
+           </form>
+        </div>
+
+        <footer>
+         <h3>&#169; 2023 Shreyas Kadam </h3>
+        </footer>
+
+
+</body>
+</html>

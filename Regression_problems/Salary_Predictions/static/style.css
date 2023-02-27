@@ -1,0 +1,157 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Oswald:wght@500&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Raleway");
+@import url("https://fonts.googleapis.com/css?family=Metal Mania");
+body {
+  margin: 0;
+  padding: 0;
+}
+
+nav.navbar {
+  background-color: #f2f2f2;
+  background-image: url(../static/images/web-g1c2368440_1280.jpg);
+  padding: 3em;
+}
+
+nav.navbar h1 {
+  font-size: 8em;
+  text-align: center;
+  font-family: Raleway;
+  font-weight: bolder;
+  color: black;
+}
+
+nav.navbar h1 span {
+  background: rgba(255, 255, 0, 0.2);
+}
+
+div.main-container {
+  font-family: Raleway;
+  margin: 1em;
+}
+
+div.main-container div.input {
+  margin: 0 auto;
+  width: 70%;
+  height: 70%;
+  -webkit-columns: 2;
+          columns: 2;
+  display: block;
+}
+
+div.main-container .column {
+  text-align: center;
+  margin: 0 20px 30px;
+  -webkit-box-shadow: 3px 8px 8px rgba(0, 0, 0, 0.12), 3px 8px 8px rgba(0, 0, 0, 0.24);
+          box-shadow: 3px 8px 8px rgba(0, 0, 0, 0.12), 3px 8px 8px rgba(0, 0, 0, 0.24);
+  background: rgba(0, 0, 0, 0.12)
+  border-radius: 20px;
+}
+
+div.main-container .column .input-box {
+  padding: 10px 15px;
+}
+
+div.main-container .column .input-box-r {
+  padding: 17px 20px;
+}
+
+div.main-container .column input[type="checkbox"] {
+  -webkit-transform: scale(2);
+  transform: scale(2);
+  margin-right: 20px;
+}
+
+div.main-container .column input, div.main-container .column select {
+  background-color: #f2f2f2;
+  border: none;
+  border-radius: 1em;
+  padding: .3em;
+  -webkit-box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+          box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+  font-family: raleway;
+}
+
+div.main-container .column input:hover, div.main-container .column select:hover {
+  color: #007AF3;
+}
+
+div.main-container .submit-btn {
+  margin-top: 0;
+  padding-top: 0.5em;
+  padding-bottom: 2em;
+  background-color: #fff;
+  text-align: center;
+  width: 100%;
+  border-radius: 20px;
+}
+
+div.main-container .submit-btn input {
+  background: #007AF3;
+}
+
+div.main-container .submit-btn .input-btn {
+  padding: 0.8em;
+  font-size: 4em;
+  font-weight: bold;
+  border: none;
+  border-radius: 5em;
+  width: 30%;
+  font-family: raleway;
+}
+
+div.main-container .submit-btn .input-btn:hover {
+  color: white;
+}
+
+footer {
+  text-align: center;
+  font-family: raleway;
+}
+
+footer.pred-foot {
+  text-align: center;
+  font-family: raleway;
+  float: bottom;
+  margin-top: 8.5em;
+}
+
+div.prediction {
+  margin-top: .4em;
+  background: #fff;
+  padding: 3em;
+  text-align: center;
+}
+
+div.prediction div {
+  -webkit-box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+          box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+  background: #F2F2F2;
+  border-radius: 2em;
+  padding: 2em;
+  margin-bottom: 3em;
+}
+
+div.prediction div h2 {
+  font-size: 3em;
+  font-family: raleway;
+  font-weight: bold;
+}
+
+div.prediction a {
+  font-size: 3em;
+  border-radius: 2em;
+  background-color: #007AF3;
+  padding: 0.5em;
+  padding-left: 3.5em;
+  padding-right: 3.5em;
+  text-decoration: none;
+  color: black;
+  font-family: raleway;
+  font-weight: bold;
+}
+
+div.prediction a:hover {
+  color: white;
+}
+/*# sourceMappingURL=style.css.map */
