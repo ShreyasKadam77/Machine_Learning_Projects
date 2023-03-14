@@ -1,7 +1,7 @@
 # Loan Approval Prediction
 
 #### Problem Statement:
-   • Company wants to automate the loan eligibility process based on customer details provided while filling online application form.
+   • Company wants to automate the loan eligibility process based on customer details provided while filling online application form.<br/>
    • These detail are Gender, Marital Status, Education, Number of Dependents, Income, Loan Amount, Credit History, etc.
 
 ## Project Overview 
@@ -20,7 +20,7 @@
 • **Plotted bargraphs and countplots** for categorical and numerical features respectively to analyze data distrubution<br/>
 • In some numerical features, data distribution was **right skewed**. Used **Log transformation** to make those features to **normally distributed**.
 
-![applicant_income](data/applicant_income.png)![applicant_income_log](data/applicant_income_log.png)
+![applicant_income](data/applicant_income.png) ![applicant_income_log](data/applicant_income_log.png)<br/>
 
 • For **Numerical Features** : **Replaced NaN values with mean**<br/>
 • For **Categorical Feature** (Credit_History): **Replaced NaN values with mode**<br/>
@@ -31,7 +31,7 @@
 
 
 ## Model Building and Evaluation
-Metrics: Accuracy, Confusion Matrix and ROC Curve
+Metrics: Accuracy, Confusion Matrix and ROC Curve <br/>
 • Got best accuracy of 77.27 for Ada Boost Classifier.
 
 ![confusion_matrix](data/confusion_matrix.png)<br/>
