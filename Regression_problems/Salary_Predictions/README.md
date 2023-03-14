@@ -2,10 +2,8 @@
 
 ## Project Overview
 • Created a machine learning model that **estimates salary of data scientist based on the features like rating, company_founded, etc.**<br/>
-• Engineered features from the text of each job description to quantify the value companies put on python, excel, tableau and sql
-
-## How will this project help?
 • This project **helps data scientist/analyst to negotiate their income for an existing or a new job**
+• Built a flask API endpoint that was hosted on a local webserver. The API endpoint takes in a request with features and returns an estimated salary.
 
 ## Resources Used
 • Packages: **pandas, numpy, sklearn, matplotlib, seaborn.**<br/>
@@ -44,6 +42,5 @@ Metric: Root Mean Squared Error (RMSE)<br/>
 ![feature_importances](data/feature_importances.png)
 
 ## Model Prediction
-• Created API using Flask 
 
 ![Prediction](data/predictions.gif)
