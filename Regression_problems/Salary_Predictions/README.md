@@ -6,7 +6,7 @@
 • Built a flask API endpoint that was hosted on a local webserver. The API endpoint takes in a request with features and returns an estimated salary.
 
 ## Resources Used
-• Packages: **pandas, numpy, sklearn, matplotlib, seaborn.**<br/>
+• Packages: **pandas, numpy, sklearn, matplotlib, seaborn, Flask.**<br/>
 • Dataset: https://github.com/PlayingNumbers/ds_salary_proj/blob/master/glassdoor_jobs.csv <br/>
 
 
@@ -26,7 +26,7 @@
 • **Creating new features** from existing features e.g. **job_in_headquaters from (job_location, headquarters)**, etc.<br/>
 • Trimming columns i.e. **Trimming features having more than 10 categories to reduce the dimensionality**<br/>
 • **Handling ordinal and nominal categorical features**<br/>
-• Feature Selection using **information gain (mutual_info_regression) and correlation matrix**<br/>
+• Feature Selection using **correlation matrix**<br/>
 
 ![correlation](data/correlation.png)<br/>
 
