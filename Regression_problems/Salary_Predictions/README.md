@@ -17,6 +17,7 @@
 • **Plotted bargraphs and countplots** for numerical and categorical features respectively for EDA<br/>
 • **Numerical Features** (Rating, Founded,Salary): **Replaced NaN or -1 values with mean or meadian based on their distribution**<br/>
 ![salary1](data/salary1.png) ![salary2](data/salary2.png)<br/>
+
 • **Categorical Features: Replaced NaN or -1 values with 'Other'/'Unknown' category**<br/>
 • **Removed unwanted alphabet/special characters from Salary feature**<br/>
 • **Converted the Salary column into one scale** i.e from (per hour, per annum, employer provided salary) to (per annum)
@@ -27,7 +28,8 @@
 • Trimming columns i.e. **Trimming features having more than 10 categories to reduce the dimensionality**<br/>
 • **Handling ordinal and nominal categorical features**<br/>
 • Feature Selection using **information gain (mutual_info_regression) and correlation matrix**<br/>
-![correlation](data/correlation.png)<br/>
+![correlation](data/correlation.jpg)<br/>
+
 • Feature Scaling using **StandardScalar**
 
 ## Model Building and Evaluation
@@ -35,6 +37,9 @@ Metric: Root Mean Squared Error (RMSE)<br/>
 • Multiple Linear Regression: 25.911<br/>
 • Lasso Regression: 26.379<br/>
 • **Random Forest: 19.050**<br/>
+
+## Feature Importance
+![feature_importances](data/feature_importances.png)
 
 ## Model Prediction
 ![Prediction](data/predictions.gif)
