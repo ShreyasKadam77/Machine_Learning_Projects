@@ -2,7 +2,6 @@ import pickle
 from flask import Flask, request, render_template
 import numpy as np
 import json
-# from flask_cors import cross_origin
 from sklearn.preprocessing import StandardScaler
 import pandas as pd
 
