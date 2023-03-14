@@ -9,13 +9,14 @@
 
 ## Resources Used
 • Packages: **pandas, numpy, sklearn, matplotlib, seaborn.**<br/>
-• Dataset: https://github.com/PlayingNumbers/ds_salary_proj/blob/master/glassdoor_jobs.csv **<br/>
+• Dataset: https://github.com/PlayingNumbers/ds_salary_proj/blob/master/glassdoor_jobs.csv <br/>
 
 
 ## Exploratory Data Analysis (EDA)
 • **Removed unwanted columns**: 'Unnamed: 0'<br/>
 • **Plotted bargraphs and countplots** for numerical and categorical features respectively for EDA<br/>
 • **Numerical Features** (Rating, Founded,Salary): **Replaced NaN or -1 values with mean or meadian based on their distribution**<br/>
+
 ![salary1](data/salary1.png) ![salary2](data/salary2.png)<br/>
 
 • **Categorical Features: Replaced NaN or -1 values with 'Other'/'Unknown' category**<br/>
@@ -28,7 +29,8 @@
 • Trimming columns i.e. **Trimming features having more than 10 categories to reduce the dimensionality**<br/>
 • **Handling ordinal and nominal categorical features**<br/>
 • Feature Selection using **information gain (mutual_info_regression) and correlation matrix**<br/>
-![correlation](data/correlation.jpg)<br/>
+
+![correlation](data/correlation.png)<br/>
 
 • Feature Scaling using **StandardScalar**
 
@@ -42,4 +44,6 @@ Metric: Root Mean Squared Error (RMSE)<br/>
 ![feature_importances](data/feature_importances.png)
 
 ## Model Prediction
+• Created API using Flask 
+
 ![Prediction](data/predictions.gif)
